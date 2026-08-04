@@ -2,7 +2,16 @@
 <html lang="he" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/assets/kelulot-logo-BwVPTgOl.png" />
+    <link rel="icon" type="image/png" href="/klulot/assets/kelulot-logo-BwVPTgOl.png" />
+    <script>
+  (function () {
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,8 +21,8 @@
     />
     <title>כלולות — סימולטור תכנון פיננסי</title>
     <meta name="description" content="תכנון פיננסי ארוך טווח לנישואי ילדים בשוק ההון" />
-    <script type="module" crossorigin src="/assets/index-CJcRgKqT.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-bMuvuTqO.css">
+    <script type="module" crossorigin src="/klulot/assets/index-CzHIDDor.js"></script>
+    <link rel="stylesheet" crossorigin href="/klulot/assets/index-bMuvuTqO.css">
   </head>
   <body>
     <div id="root"></div>
