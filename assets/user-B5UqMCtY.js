@@ -1,1 +1,0 @@
-import{B as e}from"./AccessibilityContext-fJvFZCAK.js";import{t}from"./useDocumentMeta-gGXoA2d8.js";import{t as n}from"./SimulatorScreen-275g3bvu.js";var r=e();function i(){return t(`תצוגת משתמשים | כלולות`,`סימולטור כלולות מחשב תוכנית חיסכון ארוכת טווח לנישואי ילדים: הפקדה חודשית, הלוואות, קרן גידור ותרחישים היסטוריים.`),(0,r.jsx)(n,{advanced:!1})}export{i as default};

@@ -1,1 +1,0 @@
-import{B as e}from"./AccessibilityContext-fJvFZCAK.js";import{t}from"./useDocumentMeta-gGXoA2d8.js";import{t as n}from"./SimulatorScreen-275g3bvu.js";var r=e();function i(){return t(`תצוגת מנהל | כלולות`,`סימולטור כלולות במצב מתקדם: הפקדה חודשית, הלוואות, קרן גידור, תרחישים היסטוריים והגדרות נוספות למנהלים.`),(0,r.jsx)(n,{advanced:!0})}export{i as default};
